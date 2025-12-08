@@ -4,8 +4,10 @@ return {
   opts = {
     picker = {
       hidden = true,
+      exclude = { "**/{venv,.venv}/**" },
       files = {
         hidden = true,
+        exclude = { "**/{venv,.venv}/**" },
       },
     },
   },
